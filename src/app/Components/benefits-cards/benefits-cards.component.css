@@ -1,0 +1,109 @@
+h3{
+        font-size: 44px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.64;
+        letter-spacing: 2.2px;
+        text-align: center;
+        color: #11b4e5;
+}
+
+h4{
+    font-size: 18px;
+    font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #303030;
+}
+
+.benefits>div>p, .query>div>p{
+    font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.7px;
+  text-align: center;
+  color: #303030;
+}
+
+.benefits>div{
+    text-align: center;
+}
+
+.benefits{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.benefit-block{
+    margin: 10px;
+    padding: 52px 9px;
+    box-shadow: 0px 8px 33.6px 6.4px rgba(0, 0, 0, 0.05);
+    border: solid 1px #eeeeee;
+    background-color: #ffffff;
+}
+
+.benefit-block>img{
+    margin-bottom: 25px;
+}
+
+.benefit-block>hr{
+    width: 97px;
+    border: 1px solid grey;
+}
+
+.benefit-block>p{
+    height: 75px;
+    font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: 0.35px;
+  text-align: center;
+  color: #303030;
+}
+
+.benefit-block>a, button{
+    background-color: #11b4e5;
+    color: #ffffff
+}
+.benefit-block>a{
+    padding: 5px 18px;
+    border-radius: 20px;
+}
+
+button{
+    padding: 10px 40px;
+    border-radius: 40px;
+}
+
+button:hover{
+    color: #ffffff;
+}
+
+.benefit-head, .query-head{
+    margin: 25px 0px;
+}
+.query{
+    padding: 50px 0px;
+}
+
+input::placeholder, textarea::placeholder{
+    font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.7px;
+  color: #a1a1a1;
+}
+
+.google-map>img{
+    height: 404px;
+    width: 100%;
+}

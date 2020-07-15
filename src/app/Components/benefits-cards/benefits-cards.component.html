@@ -1,0 +1,80 @@
+<section class="row benefits margin-top-bottom-offset-100 bg-light">
+    <div class="col-md-12 pading-bottom-offset-60 benefit-head">
+       <h3>Benefits</h3>
+       <p class="pading-top-offset-8">
+          We make it easy and affordable for you to stay  and healthy
+       </p>
+    </div>
+    <div class="container">
+        <div class="row">
+             <div class="col-md-4" *ngFor="let data of benefitsItem">
+               <div class="benefit-block">
+                  <img src={{data.image}} alt="Equipements" />
+                  <h4>{{data.head}}</h4>
+                  <hr>
+                  <p>
+                    {{data.para}}
+                  </p>
+                  <a class="btn">Learn more</a>
+               </div>
+            </div>
+        </div>
+      
+    </div>
+ </section>
+
+ <!--form-->
+ <section class="query bg-light">
+    <div class="col-md-12 pading-top-offset-60 pading-bottom-offset-60">
+       <h3>Have a query?</h3>
+       <p class="pading-top-offset-8">
+          Please fill out the quick form and we will be in touch with you 
+       </p>
+    </div>
+    <div class="container-sm">
+       <form action="/action_page.php" class="text-center mt-5">
+          <div class="row">
+             <div class="col-md-6">
+                <div class="form-group">
+                   <input
+                      type="text"
+                      class="form-control"
+                      id="name"
+                      placeholder="Name"
+                      name="name"
+                      />
+                </div>
+             </div>
+             <div class="col-md-6">
+                <div class="form-group">
+                   <input
+                      type="email"
+                      class="form-control disabled"
+                      id="email"
+                      placeholder="Email"
+                      name="email"
+                      />
+                </div>
+             </div>
+          </div>
+          <div class="row">
+             <div class="col-md-12">
+                <div class="form-group">
+                   <textarea
+                      class="form-control"
+                      id="pwd"
+                      placeholder="Tell us what you are looking for"
+                      name="pwd"
+                      ></textarea>
+                </div>
+             </div>
+          </div>
+          <button type="submit" class="btn">SUBMIT</button>
+       </form>
+    </div>
+ </section>
+
+ <!---Google map-->
+ <section class="google-map">
+     <img src="https://www.thestatesman.com/wp-content/uploads/2020/04/googl_ED.jpg" alt="">
+ </section>

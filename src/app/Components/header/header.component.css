@@ -1,0 +1,128 @@
+
+/*  Banner */
+h2{
+    color: #f6ffd9;
+    font-size: 32px;
+    letter-spacing: 4px;
+}
+.wrap-banner{
+  display:flex;
+  align-items:center;
+background:url(http://techveduat.com/Internal-Project/code/images/banner.jpg);
+  background-position:center top;
+  height: 550px;
+}
+
+.wrap-banner>div{
+    color: #ffffff;
+
+}
+
+  h1{
+    font-size: 90px;
+    font-weight: 500;
+    letter-spacing: 6.75px;
+    color: #11b4e5;
+  }
+
+  h2{
+    line-height: 1.08;
+    letter-spacing: 3px;
+    text-align: left;
+    color: #ffffff;
+    font-size: 15px;
+  font-weight: 100;
+  margin-left: 7px;
+  }
+
+  h4{
+    
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.5;
+    letter-spacing: 1.2px;
+    text-align: left;
+    color: #303030;
+    margin-left: 7px;
+  }
+/* Banner */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  section.wrap-banner{
+    background-position: 78% 2%;
+    width: 100%;
+    top: 18%;
+    margin-top: 11%;
+    height: 83vh;
+  }
+
+  nav{
+    position: absolute;
+    width: 100%;
+  }
+
+  button.navbar-toggler.toggle-btn:focus {
+    outline: none!important;
+}
+
+  nav{
+    top: 0%;
+  }
+  h1{
+    font-size: 55px;
+  }
+
+  h2{
+    font-size: 13px;
+  }
+
+  h4{
+    font-size: 14px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    h4{
+            width: 494px;
+            height: 23px;
+            font-size: 24px;
+    }
+}
+
+
+/*--header*/
+.header-list>li.active>a{
+  color: #11b4e5;
+  font-weight: 500;
+}
+
+.header-list>li>a{
+  font-size: 14.5px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.45px;
+  text-align: left;
+  color: #676767;
+}
+
+ul.navbar-nav.mt-2.mt-lg-0.header-list>li {
+  margin: 0px 20px;
+}
+
+.toggle-btn{
+  background: url(http://techveduat.com/Internal-Project/code/images/hamburger.png) center center no-repeat;
+  height: 50px;
+    width: 40px;
+}
+
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}

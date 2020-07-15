@@ -1,0 +1,84 @@
+h3{
+    font-size: 44px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.64;
+    letter-spacing: 2.2px;
+    text-align: center;
+    color: #11b4e5;
+}
+
+.float-right{
+    position: absolute;
+    top: 50%;
+    right: 0%;
+}
+.float-left{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+}
+
+.fitness{
+    margin: 25px 0px;
+}
+
+.fitness>p{
+    font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.7px;
+  text-align: center;
+  color: #303030;
+}
+
+.carousel-item>div{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-content>p{
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.88;
+  letter-spacing: 0.8px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.carousel-content>h6{
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.carousel-item>div{
+  background-color: #11b4e5;
+}
+
+.card{
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 425px) and (min-width: 320px){
+  .img-container{
+    justify-content: center;
+    display: flex;
+  }
+
+  .carousel-content{
+    padding: 20px;
+  }
+}
+
+@media only screen and (min-width: 1024px){
+    .img-container>img{
+        width: 100%
+    }
+}

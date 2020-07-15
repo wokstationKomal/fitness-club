@@ -1,0 +1,40 @@
+.footer-icons{
+    list-style: none;
+    display: inline-flex;
+}
+
+.footer-icons>li>span>a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer-icons>li>span>a:hover{
+    color: #000000;
+    text-decoration: none;
+}
+
+ul.footer-icons {
+    padding-left: 0px!important;
+}
+
+.footer-icons>li{
+    margin: 10px;
+}
+
+@media only screen and (max-width: 768px){
+    .footer-row{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .footer-icons{
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    img.icon-store, img.icon-app{
+        width: 100px;
+    }
+}
